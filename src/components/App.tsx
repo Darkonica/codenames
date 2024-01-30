@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainPage, SettingsPage } from '@src/pages';
+import { MainPage } from '@src/pages';
 import { Header } from './ui/Header';
 import './App.scss';
 
@@ -8,7 +8,6 @@ const Application: React.FC = () => {
     <div id='app'>
       <Header />
       <MainPage />
-      {/* <SettingsPage /> */}
     </div>
   );
 };
